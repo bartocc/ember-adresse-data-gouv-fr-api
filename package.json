@@ -1,12 +1,12 @@
 {
   "name": "ember-adresse-data-gouv-fr-api",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Provides a Ember.js service to call the [adresse.data.gouv.fr API](https://adresse.data.gouv.fr/api)",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Julien Palmas",
   "directories": {
     "doc": "doc",
     "test": "tests"

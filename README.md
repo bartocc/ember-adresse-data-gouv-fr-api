@@ -1,6 +1,6 @@
 # ember-adresse-data-gouv-fr-api
 
-This README outlines the details of collaborating on this Ember addon.
+[WIP] Provides a Ember.js service to call the [adresse.data.gouv.fr API](https://adresse.data.gouv.fr/api)
 
 ## Installation
 
