@@ -1,6 +1,6 @@
 {
   "name": "ember-adresse-data-gouv-fr-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Provides an Ember.js service to call https://adresse.data.gouv.fr/api",
   "keywords": [
     "ember-addon"
