@@ -6,7 +6,7 @@
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "Julien Palmas",
+  "author": "Julien Palmas <julien@crx.io>",
   "directories": {
     "doc": "doc",
     "test": "tests"
