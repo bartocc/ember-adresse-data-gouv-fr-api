@@ -1,17 +1,37 @@
 # ember-adresse-data-gouv-fr-api
 
-[WIP] Provides a Ember.js service to call the [adresse.data.gouv.fr API](https://adresse.data.gouv.fr/api)
+[![npm version](https://badge.fury.io/js/ember-decorators.svg)](https://badge.fury.io/js/ember-decorators)
+[![Build Status](https://travis-ci.org/ember-adresse-data-gouv-fr-api/ember-decorators.svg?branch=master)](https://travis-ci.org/ember-decorators/ember-decorators)
+![Ember Version](https://embadge.io/v1/badge.svg?start=2.4.0)
 
-## Installation
+This addons provides a service to call the [adresse.data.gouv.fr API](https://adresse.data.gouv.fr/api).
 
-* `git clone <repository-url>` this repository
-* `cd ember-adresse-data-gouv-fr-api`
-* `npm install`
+## Usage
 
-## Running
+### Installation
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* `ember install ember-adresse-data-gouv-fr-api`
+
+### Application Usage
+
+```javascript
+import Service from "@ember/service";
+import { inject } from "@ember/service";
+
+export default Service.extend({
+  adresseDataGouvFrApi: inject(),
+
+  actions: {
+    // location: {latitude: ..., longitude: ...}
+    reverseGeocode(location) {
+      // response: [GeoCodeJSON](https://github.com/geocoders/geocodejson-spec/tree/master/draft)
+      get(this, 'adresseDataGouvFrApi').reverse(location).then((response) => {
+        // ...
+      });
+    }
+  }
+})
+```
 
 ## Running Tests
 
