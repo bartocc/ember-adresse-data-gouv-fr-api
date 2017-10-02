@@ -1,7 +1,7 @@
 # ember-adresse-data-gouv-fr-api
 
-[![npm version](https://badge.fury.io/js/ember-decorators.svg)](https://badge.fury.io/js/ember-decorators)
-[![Build Status](https://travis-ci.org/ember-adresse-data-gouv-fr-api/ember-decorators.svg?branch=master)](https://travis-ci.org/ember-decorators/ember-decorators)
+[![npm version](https://badge.fury.io/js/ember-adresse-data-gouv-fr-api.svg)](https://badge.fury.io/js/ember-adresse-data-gouv-fr-api)
+[![Build Status](https://travis-ci.org/ember-adresse-data-gouv-fr-api/ember-adresse-data-gouv-fr-api.svg?branch=master)](https://travis-ci.org/ember-adresse-data-gouv-fr-api/ember-adresse-data-gouv-fr-api)
 ![Ember Version](https://embadge.io/v1/badge.svg?start=2.4.0)
 
 This addons provides a service to call the [adresse.data.gouv.fr API](https://adresse.data.gouv.fr/api).
