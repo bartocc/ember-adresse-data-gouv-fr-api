@@ -4,8 +4,6 @@
 [![Build Status](https://travis-ci.org/ember-adresse-data-gouv-fr-api/ember-adresse-data-gouv-fr-api.svg?branch=master)](https://travis-ci.org/ember-adresse-data-gouv-fr-api/ember-adresse-data-gouv-fr-api)
 ![Ember Version](https://embadge.io/v1/badge.svg?start=2.4.0)
 
-This addons provides a service to call the [adresse.data.gouv.fr API](https://adresse.data.gouv.fr/api).
-
 ## Usage
 
 ### Installation
